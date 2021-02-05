@@ -1,4 +1,13 @@
 @media screen and (max-width: 700px) {
+    .section_propadavateli{
+        flex-direction: column;
+    }
+    .section_propadavateli-text{
+        width: 100%;
+    }
+    .section_propadavateli{
+        align-items: center;
+    }
     .nav__item {
         display: none;
     }
@@ -48,12 +57,21 @@
 
 
 
-
+    @media screen and (max-width: 535px){
+        .map{
+            overflow: hidden;
+            width: 200px;
+        }
+    }
     @media screen and (max-width: 799px) {
         .nav__item a {
             font-size: 11px;
             padding: 0;
             margin: 0;
+        }
+        .map{
+            overflow: hidden;
+            width: 500px;
         }
     }
 
@@ -66,6 +84,21 @@
 
 
     @media screen and (max-width: 722px) {
+        .section_propadavateli-text{
+            width: 90%;
+            margin: 0;
+        }
+        .post1{
+            width: 100%;
+        }
+        .section_propadavateli-post img{
+            width: 100%;
+            margin: 20px 0 20px 0;
+        }
+        .section_propadavateli-post{
+            width: 100%;
+            margin: 0;
+        }
         .footer__content-item {
             display: flex;
             justify-content: center;
