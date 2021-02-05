@@ -17,6 +17,16 @@
         padding: 0 10px 0 10px;
         border-right: 0px solid rgba(255, 255, 255, .075);
     }
+    .post1 img {
+       width: 550px;
+    }
+    .section_propadavateli-img{
+        width: 550px;
+    }
+    .post1{
+        width: 550px;
+        
+    }
 }
 
 
