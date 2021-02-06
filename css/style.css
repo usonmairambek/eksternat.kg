@@ -203,3 +203,19 @@ footer {
     width: 90%; 
     margin: 30px;
 }
+
+
+.section__gallery{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section__gallery-item img{
+    display: flex;
+    box-shadow: 0px 2px 7px 0px #000000;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
