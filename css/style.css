@@ -175,10 +175,14 @@ footer {
 }
 .post1 img {
     height: 250px;
+    box-shadow: 0px 2px 7px 0px #000000;
+border-radius: 20px;
 }
 .post1 p {
+    font-family:inherit;
     text-align: justify;
     padding-top: 10px;
+    font-size: 1.2em;
 }
 .burger-active{
     line-height: 45px;
@@ -193,15 +197,12 @@ footer {
     top: 50vh;
 }
 .section_propadavateli-text{
-    width: 65%;
-    margin-left: 10px;  
-    margin: 55px 10px 30px 20px; 
+  
     display: flex; 
     justify-content: center;
 }
-.section_propadavateli-post{
-    width: 90%; 
-    margin: 30px;
+.section__news-prepodavateli{
+    display: flex;
 }
 
 
@@ -213,9 +214,15 @@ footer {
     flex-wrap: wrap;
 }
 .section__gallery-item img{
+    border-radius: 20px;
     display: flex;
     box-shadow: 0px 2px 7px 0px #000000;
     width: 400px;
     height: auto;
     margin: 20px;
 }
+.table_resume{
+    font-size: 20px;
+    padding: 20px;
+}
+
