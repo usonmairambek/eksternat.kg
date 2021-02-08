@@ -269,11 +269,14 @@ border-radius: 20px;
     top: 0;
     z-index: 21;
     left: -100%;
-    width: 100%;
+    width: 100vw;
     height: 100%;
-
+position: relative;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  .hamburger-menu{
+      position: absolute;
   }
   /* элементы меню */
   .menu__item {
