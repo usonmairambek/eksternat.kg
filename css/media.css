@@ -26,6 +26,28 @@
     }
 
 }
+@media screen and (max-width: 725px){
+    .map{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 725px){
+    .map{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .hamburger-menu{
+        max-width: 250px;
+    }
+    .menu__box-links{
+        max-width: 250px;
+
+    }
+    .menu__box{
+        max-width: 250px;
+    }
+}
 
 
 
