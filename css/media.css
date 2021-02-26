@@ -12,6 +12,7 @@
     .nav__item {
         display: none;
     }
+  
     .nav__items-link {
         display: block;
         line-height: 45px;
@@ -55,16 +56,7 @@
 
 
 @media screen and (min-width: 700px) {
-    .menu__box{
-        display: none;
-    }
-    .menu__btn{
-        display: none;
-    }
-    .burger{
-        display: none;
-    }
-    .nav__menu-link {
+    .menu__box,  .menu__btn, .burger,  .nav__menu-link {
         display: none;
     }
     .nav__items {

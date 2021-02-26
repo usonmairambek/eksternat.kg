@@ -45,9 +45,6 @@
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
-}
-
-.Header__title-text a, .Header__title-text span {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 26px;
@@ -55,13 +52,12 @@
 
 .Header__title-text span {
     font-size: 18px;
+    
 }
-
 .wrapper {
     width: 1350px;
     margin: 0 auto;
 }
-
 .wrapper-1 {
     max-width: 1350px;
     margin: 0 auto;
@@ -167,35 +163,20 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.post1 {
-    justify-content: space-around;
-    max-width: 250px;
-    border-radius: 20px;
-    margin: 20px;
-}
+
 .post1 img {
-    height: 250px;
-    box-shadow: 0px 2px 7px 0px #000000;
-border-radius: 20px;
+    margin: 20px 20px 0 20px;
+    height: 200px;
+    box-shadow: 0px 1px 5px 0px #000000;
+border-radius: 10%;
 }
 .post1 p {
-    font-family:inherit;
-    text-align: justify;
-    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3px 5px 10px 17px;
     font-size: 1.2em;
+    max-width: 250px;
 }
-.burger-active{
-    line-height: 45px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 200px;
-    background-color: #5d23d1;
-    position: absolute;
-    left: 0;
-    top: 50vh;
-}
+
 .section_propadavateli-text{
   
     display: flex; 
@@ -276,33 +257,11 @@ position: relative;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   }
   .hamburger-menu{
+      padding: 0;
+      margin: 0;
       position: absolute;
-  }
-  /* элементы меню */
-  .menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: #333;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .menu__item:hover {
-    background-color: #CFD8DC;
-  }
-
-
-  #menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-  }
-  #menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-  }
-  #menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
+      left: 0;
+      top: 0;
   }
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
@@ -326,5 +285,21 @@ position: relative;
     padding: 15px;
   }
   .menu__box li{
-      padding: 20px ;
+      padding: 10px ;
+  }
+
+  .nav_top{
+      background-color: #5d23d1;
+      position: absolute;
+      top: 0;
+      width: 100%;
+     
+  }
+  .nav_top-wrap{
+      height: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
